@@ -1,1 +1,1 @@
-GrowPlants API
+GrowPlants-API
