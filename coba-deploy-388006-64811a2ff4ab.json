@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "coba-deploy-388006",
+  "private_key_id": "64811a2ff4ab898edbb33b0e7ddb5236d9ba63ec",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDSt0bMn9JaM0uu\njI4KGgHIakmq1fGjfcQ/+bpmQJ14lQfoxS/RdENAgA2yD2DG4RuDhNkWr+cj7NTw\nM15ajD/wQTHBJBwINEG175wipHMpEwlFCO20Hc77iwNpgDskunJMP2fx13z4+m5k\ndxuXBZfECnvx8mgo4MnKV1yN1RnN96pZf99CRLSCDgqS7eMUTWFr25GZkerKRFbx\nGmUWbfa+ow99RR5jn6bsOT6QUuJN2/gVgyMQmBkBt8mxKWtuEH53izEF+51wxOxD\nTFN35BYFCnGDszaLqwa2CHVmbi+9Todd6PKsS+5Ilsdq3tJFXetWnJsE8n2B3+ct\nWFiTFIobAgMBAAECggEAQF0oXKey9sd1Zidb2b0Q71l8EBlSuqhXcl1DMSmqkCMh\nq9nTneygAEs9I7crzgQDxfwl3Za0iVY1wvtF5m2xuB8J5h+0ClOAAOVkcXZ/ELxW\nWAZ+qUZzq4VOcQLwzeq/sAesJgS3EUxZvQle3ZYhQgobyw9K/rWPHeXqiQ5fV/ix\nBQTFR6CNIRXiRY2ZhkX0iPSOa8NsWKQnXrd7vlm+SNWRLxlkZjC4tHC6EnLDP+y/\nhtuFOqMDAA8O62vxXkVDtwpbuG4/m1zbgV+UEJOc03G4yvSsi2cnmBXt0OkNbW34\nu0ntG7H/iAepj9veWeNTXySyFBC9ah5BX4vC09Yc/QKBgQD524Yh/AC7NePCepFV\nyNi/m1pgpGBHt8yf0Fkms7qrMUG1LTx285WfEEXNFy8Zevx+XDL4TM5zYD9P9AOW\ngpwpFe1byTHoo6yVLyzqPXamiIob923VNpsmyglmZMPJqEsKEQ4zxKg1GKhMua9B\nxm6vpSZQjWbVG1NpvhnVhtiFFQKBgQDX5WpUOJCuLZUDdjwYNTecAN5MDugQtE1L\n/YTYfdSlG1mdnvyr6znhBPntPCEpDWRDF2oP3ofz0RSJSHuphtki7zm0YyjCn62o\nEczyg38vzO6Qrz9BMdJYLcJau9TC+2MuaBqjAYI3KcPjGDBi93eXEky1En1FeR1z\nTW44RIj+bwKBgQCNowrrcu57MbZWBaMjjQKJw6g9BpFptmBx6+rNzK6x4u9LpEQV\nbknP7KqU82KIwDYn714ZcXjK4LGjQkFSbeHWTI7MLEZ1iWsI+sAsXQFIsDgSWHXT\nmuvi1j7z44U1aIh5QWfaos1zo/Gr5Mrbr4AJY8ZPfYjgn2fulowQhitxbQKBgQC9\nbT80EkVvbfMXDICBxP+70084cMPRFEHV8OTEhvMywqKIl9yeg09PTexz6JQ3ztYv\nv7WBowCqPsLECWLnRbfy3O9GhNJYoX3ev2+RQSsxJ6ASNpFLhIlIcS3cKn3tbmCB\ncTod188G05BaCvk5fGPjm1zOayCa+j+K0V9p40hH5QKBgQCUbs0EoMENNfgqBtJ0\nemisfLH52LzdpqeAqUxhVzbFePJk/7+wTZcNcWexF1lRHuNBu0u1lGGhJgp2lYis\nQ1buZbr9aHnGfpODWsv/iXOyH2DAtmxrVG9OnyJVG0DOh3f6veLD3+MTQjPqgArS\n0AVZSJ3EZ9rHwVg69oOfV7oL8Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "grow-plants@coba-deploy-388006.iam.gserviceaccount.com",
+  "client_id": "114216910341872459717",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/grow-plants%40coba-deploy-388006.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
