@@ -3,7 +3,7 @@ const processFile = require("../middleware/uploadArticleFile");
 const httpStatus = require("http-status");
 const Response = require("../model/Response");
 const path = require('path');
-const uploadImage = require('../utils/upload')
+const uploadImage = require('../utils/upload');
 
 const postUpload = async (req, res) => {
     let response = null;
@@ -31,6 +31,19 @@ const getUploads = async (req, res) => {
     const images = await Upload.find();
 
     response = new Response.Success(false, null, images);
+    res.status(httpStatus.OK).json(response);
+  } catch (error) {
+    response = new Response.Error(true, error.message);
+    res.status(httpStatus.BAD_REQUEST).json(response);
+  }
+};
+
+const getUpload = async (req, res) => {
+  let response = null;
+  try{
+    const image = await Upload.findOne({_id : req.params.id});
+
+    response = new Response.Success(false, null, image);
     res.status(httpStatus.OK).json(response);
   } catch (error) {
     response = new Response.Error(true, error.message);
@@ -68,4 +81,4 @@ const deleteUpload = async (req, res) => {
   }
 }
 
-module.exports = { postUpload, getUploads, deleteUpload };
+module.exports = { postUpload, getUploads, getUpload, deleteUpload };

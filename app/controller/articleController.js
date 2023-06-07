@@ -18,6 +18,7 @@ const postArticles = async (req, res) => {
     const {
       name,
       description,
+      category,
       prescription,
       prevention
     } = await articleValidator.validateAsync(req.body);
@@ -33,6 +34,7 @@ const postArticles = async (req, res) => {
     article = new Article({
       imageUrl: upload.url,
       name,
+      category,
       description,
       prescription : JSON.parse(prescription),
       prevention : JSON.parse(prevention)

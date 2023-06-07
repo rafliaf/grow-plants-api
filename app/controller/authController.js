@@ -13,9 +13,10 @@ const signUp = async (req, res) => {
   try {
     const request = await userValidator.validateAsync(req.body);
 
+    // Check if email exist
     const users = await User.findOne({ email: request.email });
     if (users) {
-      response = new Response.Error(true, "Email sudah digunakan");
+      response = new Response.Error(true, "Email sidah digunakan!");
       res.status(httpStatus.BAD_REQUEST).json(response);
       return;
     }

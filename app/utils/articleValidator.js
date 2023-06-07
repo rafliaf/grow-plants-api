@@ -1,16 +1,12 @@
 const Joi = require("joi");
+const DiseaseCategories = require("../constant/disease_categories");
 
 const articleValidator = Joi.object({
-  //imageUrl: Joi.string().allow(null, ''),
   name: Joi.string().required(),
-  //latinName: Joi.string().required(),
- //family: Joi.string().required(),
+  category: Joi.string().valid(...DiseaseCategories).required(),
   description: Joi.string().required(),
   prescription : Joi.string().required(),
   prevention : Joi.string().required()
- // ingredient: Joi.string().required(),
- // efficacy: Joi.array().required(),
- // onlineShop: Joi.string().required(),
 });
 
 module.exports = articleValidator;

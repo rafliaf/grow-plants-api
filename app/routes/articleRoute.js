@@ -15,7 +15,8 @@ router.delete("/delete", articleController.deleteArticle);
 
 // Upload Route
 router.post("/upload", uploadController.postUpload);
-router.get("/upload", uploadController.getUploads);
+router.get("/uploads", uploadController.getUploads);
+router.get("/upload/:id", uploadController.getUpload);
 router.delete("/upload", uploadController.deleteUpload);
 
 module.exports = router;
